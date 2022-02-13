@@ -118,7 +118,6 @@ img {
 .prev-btn {
   position: absolute;
   top: 10rem;
-  right: -2.5rem;
   transform: translateY(-50%);
   background: transparent;
   font-size: 2rem;
@@ -167,4 +166,15 @@ img {
 }
 .modal-img:hover {
   opacity: 1;
+}
+@media screen and (max-width: 426px) {
+  .section {
+    grid-template-columns: auto;
+  }
+  .prev-btn {
+    left: -2.5rem;
+  }
+  .next-btn {
+    right: -2.5rem;
+  }
 }
